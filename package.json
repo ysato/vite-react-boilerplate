@@ -1,10 +1,13 @@
 {
   "name": "tutorial",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
+    "dev": "vite",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
